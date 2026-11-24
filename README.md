@@ -1,4 +1,4 @@
-# sanctionsai-dev
+# Sanctions AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sanctionsai-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sanctionsai.dev/
+Sanctions AI provides an OFAC sanctions screening API tailored for autonomous AI agents handling payments. By making a single HTTP call before each transaction, developers can instantly verify whether a wallet is on the sanctions list, covering 947 crypto wallets, 19,218 SDN names, and 16 jurisdictions. The service offers a free tier with 5 checks per day and paid plans starting at $19/month or $0.05 per check via x402. It is MIT‑licensed, self‑hostable, and integrates with popular agent frameworks like LangChain, Claude Code, and Cursor.
+
+**Areas:** Company · AI · Payments · Compliance · OFAC · Screening
+
+## Sanctions AI on APIs.io
+
+Everything profiled for Sanctions AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sanctionsai-dev/](https://apis.io/providers/sanctionsai-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Sanctions AI Dashboard API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-dashboard-api/) — The Dashboard API from Sanctions AI — 1 operation(s) for dashboard.
+- [Sanctions AI Health API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-health-api/) — The Health API from Sanctions AI — 1 operation(s) for health.
+- [Sanctions AI Kya API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-kya-api/) — The Kya API from Sanctions AI — 1 operation(s) for kya.
+- [Sanctions AI Risk API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-risk-api/) — The Risk API from Sanctions AI — 1 operation(s) for risk.
+- [Sanctions AI Sanctions API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-sanctions-api/) — The Sanctions API from Sanctions AI — 2 operation(s) for sanctions.
+- [Sanctions AI X402 API](https://apis.io/apis/sanctionsai-dev/sanctionsai-dev-x402-api/) — The x402 API from Sanctions AI — 1 operation(s) for x402.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sanctions AI Agentic Access](https://apis.io/agentic-access/sanctionsai-dev/sanctionsai-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sanctions AI API Rules](https://apis.io/rules/sanctionsai-dev/sanctionsai-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sanctions AI Authentication](https://apis.io/security/sanctionsai-dev/sanctionsai-dev-authentication/)
+- [Sanctions AI Domain Security](https://apis.io/security/sanctionsai-dev/sanctionsai-dev-domain-security/)
+- [Sanctions AI Vulnerability Disclosure](https://apis.io/security/sanctionsai-dev/sanctionsai-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sanctions AI Plans Pricing](https://apis.io/plans/sanctionsai-dev/sanctionsai-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sanctionsai.dev/)
+- [Documentation](https://sanctionsai.dev/docs)
+- [Getting started](https://sanctionsai.dev/docs)
+- [API reference](https://sanctionsai.dev/docs)
+- [Pricing](https://sanctionsai.dev/pricing)
+- [Support](https://sanctionsai.dev/faq)
+- [Blog](https://sanctionsai.dev/blog)
+- [Terms of service](https://sanctionsai.dev/terms)
+- [Privacy policy](https://sanctionsai.dev/privacy)
+- [GitHub](https://github.com/kindrat86/agentmail)
+
+## API Evangelist rating
+
+**Kin Score 51.9** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 43.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 48.5 |
+
+**Agent readiness 33.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sanctionsai-dev/](https://apis.io/providers/sanctionsai-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sanctions AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sanctionsai-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
